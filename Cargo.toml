@@ -1,0 +1,13 @@
+[package]
+name = "cobalt"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies.microbit-v2]
+version = "0.13.0"
+optional = false
+
+[dependencies]
+cortex-m = "0.7.7"
+cortex-m-rt = "0.7.3"
